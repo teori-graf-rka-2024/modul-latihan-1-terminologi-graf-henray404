@@ -8,7 +8,7 @@ bfs_result = g.bfs_traversal(graph, 3)
 path = g.find_shortest_path(graph, 2, 8)
 degree = g.get_degree(graph, 7)
 
-
+#print the result
 print("Graph Nodes:", graph.nodes)
 print("DFS Traversal:", dfs_result)
 print("BFS Traversal:", bfs_result)
